@@ -88,33 +88,54 @@
     </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url(images/banner.png)">
-        <div class="overlay"></div>
-        <div class="container">
+    <section
+      class="hero-section"
+      style="
+        background-image: url('images/banner.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+      "
+    >
+      <div
+        class="overlay"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+        "
+      ></div>
+      <div class="container h-100">
+        <div
+          class="row h-100 justify-content-center align-items-center text-center"
+        >
           <div
-            class="row slider-text justify-content-center align-items-center"
-            data-scrollax-parent="true"
+            class="col-md-8 col-sm-12 text-white ftco-animate"
+            style="position: relative; z-index: 2"
           >
-            <div class="col-md-8 col-sm-12 text-center ftco-animate">
-              <span class="subheading">by Javier Fernández</span>
-              <h1 class="mb-4">Obrador de tartas de queso artesanales</h1>
-              <p class="mb-4 mb-md-5">
-                Tu destino dulce para disfrutar de las mejores cheesecakes
-              </p>
-              <p>
-                <a
-                  href="contact.html"
-                  class="btn btn-primary p-3 px-xl-4 py-xl-3"
-                  >Pide ahora</a
-                >
-                <a
-                  href="menu.html"
-                  class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3"
-                  >Las tartas</a
-                >
-              </p>
-            </div>
+            <span
+              class="subheading"
+              style="font-family: Great Vibes, cursive; font-size: 2rem"
+              >by Javier Fernández</span
+            >
+            <h1 class="mb-4">OBRADOR DE TARTAS DE QUESO ARTESANALES</h1>
+            <p class="mb-4 mb-md-5">
+              Tu destino dulce para disfrutar de las mejores cheesecakes
+            </p>
+            <p>
+              <a href="contact.html" class="btn btn-primary p-3 px-xl-4 py-xl-3"
+                >Pide ahora</a
+              >
+              <a
+                href="menu.html"
+                class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3"
+                >Las tartas</a
+              >
+            </p>
           </div>
         </div>
       </div>

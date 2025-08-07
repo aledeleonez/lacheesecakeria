@@ -80,24 +80,40 @@
     </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel">
+    <section
+      class="hero-section"
+      style="
+        background-image: url(images/banner.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      "
+    >
       <div
-        class="slider-item"
-        style="background-image: url(images/banner.png)"
-        data-stellar-background-ratio="0.5"
-      >
-        <div class="overlay"></div>
-        <div class="container">
-          <div
-            class="row slider-text justify-content-center align-items-center"
-          >
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-              <h1 class="mb-3 mt-5 bread">Contacto</h1>
-              <p class="breadcrumbs">
-                <span class="mr-2"><a href="index.html">Inicio</a></span>
-                <span>Contacto</span>
-              </p>
-            </div>
+        class="overlay"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 1;
+        "
+      ></div>
+      <div class="container" style="position: relative; z-index: 2">
+        <div
+          class="row justify-content-center align-items-center"
+          style="min-height: 60vh"
+        >
+          <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            <h1 class="mb-3 mt-5 bread text-white">CONTACTO</h1>
+            <p class="breadcrumbs text-white">
+              <span class="mr-2"
+                ><a href="index.html" class="text-white">Inicio</a></span
+              >
+              <span>Contacto</span>
+            </p>
           </div>
         </div>
       </div>
